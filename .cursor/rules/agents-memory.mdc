@@ -1,0 +1,14 @@
+---
+description: Shared memory with Claude — always load AGENTS.md
+alwaysApply: true
+---
+
+# Agent memory (Cursor + Claude)
+
+Canonical file: **AGENTS.md** at the repo root. Claude Code loads the same file via CLAUDE.md.
+If this rule and AGENTS.md disagree, AGENTS.md wins after `git pull`.
+
+Read AGENTS.md before store, build, merge, or naming work. Do not keep a second copy of
+project state in the chat.
+
+New repos: `gh repo create NAME --template f1ashwin/agent-memory --private`
