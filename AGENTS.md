@@ -21,3 +21,5 @@ Legal texts for SnakeBake. Confirm what is live on infoash.de vs draft.
 4. Do not forge owner sign-offs or rewrite guard tests so a suite goes green.
 5. Mac and Windows stay in sync via GitHub. Commit and push before a session ends.
 6. Never chase a saturated genre's words in store metadata (Laser Sharp 4.3(a) lesson).
+
+**Ashwin's rules (verbatim, binding):** the Rules section of [README.md](README.md). Read it before acting.
